@@ -1,0 +1,22 @@
+name: dart_retrofit
+description: A sample command-line application.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.17.3 <3.0.0'
+
+dependencies:
+  xml: ^6.1.0 #A lightweight library for parsing, traversing, querying, transforming and building XML documents.
+  json_model:
+    path: ./json_model
+  json_serializable: ^6.2.0 #Automatically generate code for converting to and from JSON by annotating Dart classes.
+  retrofit: ^3.0.1+1 #retrofit.dart is a type conversion dio client generator using source_gen and inspired by Chopper and Retrofit.
+  retrofit_generator: ^4.0.1 #retrofit generator is an dio client generator using source_gen and inspired by Chopper and Retrofit.
+  build_runner: ^2.1.11 #A build system for Dart code generation and modular compilation.
+  json_annotation: ^4.5.0 #Classes and helper functions that support JSON code generation via the `json_serializable` package.
+  dio: ^4.0.6 #A powerful Http client for Dart, which supports Interceptors, FormData, Request Cancellation, File Downloading, Timeout etc.
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
